@@ -86,11 +86,10 @@ npm start
 
 ### - dark mode
 
-![Dark mode](frontend/public/img/dark%20mode.png)
+![[dark mode.png]]
 
 ### - Light mode
-
-![Light mode](frontend/public/img/Light%20mode.png)
+![[Light mode.png]]
 ---
 
 ### **Contributors**

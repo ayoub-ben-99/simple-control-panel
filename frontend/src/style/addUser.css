@@ -1,0 +1,83 @@
+@import url('./App.css');
+/* ? add users */
+.pageAddUser {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addUser {
+  background: var(--colorBlack);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.addUser form {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.addUser form 
+.inputs {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; 
+
+}
+.addUser form button {
+  width:180px;
+  height:50px;
+  border-radius: 10pc;
+  background: var(--colorOne);
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: .4s;
+}
+.addUser form button:hover {
+  box-shadow: 0px 0px 90px 1px #6d9bf776;
+}
+.addUser form button:active {
+  background: var(--colorOneDark);
+  box-shadow: none;
+}
+.inputGroup {
+  width: 40%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.inputGroup label {
+  color: var(--colorWhite);
+}
+.inputGroup input, .inputGroup
+select {
+  font-size: var(--text1);
+  background: var(--colorBlack2);
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  color: var(--colorWhite);
+  border-radius: 10pc;
+  box-shadow: none;
+}
+.inputGroup input::placeholder {
+  color:#555460;
+}
+.inputGroup  select {
+  background: var(--colorBlack2);
+  border: none;
+  outline: none;
+  color: var(--colorWhite);
+  justify-self: flex-start;
+}

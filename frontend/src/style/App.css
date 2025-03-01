@@ -1,0 +1,304 @@
+/* ? get fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+/*todo ================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+:root {
+  --colorOneDark: #1389ff;
+  --colorOne: #006aff;
+  --colorBlack: #0a0a0a;
+  --colorBlack2: #171717;
+  --colorWhite: #eeeeee;
+  --colorWhite2: #a3a3a3;
+  --colorWhiteHover: #ffffff0c;
+  --heading1: 24px;
+  --heading2: 20px;
+  --text1: 18px;
+  --text2: 14px;
+  --iconSize: 22px;
+}
+
+
+[data-theme="light"] {
+   --colorBlack: #fafafa;
+  --colorBlack2: #f3f3f3;
+  --colorWhite: #2a2a2a;
+  --colorWhite2: #555;
+}
+
+a {
+  cursor: pointer;
+}
+.app {
+  background-color: var(--colorBlack);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", serif;
+}
+
+.continuer {
+  width: 100%;
+  height: 100%;
+  background: var(--colorBlack);
+  display: flex;
+  flex-direction: row;
+}
+
+/* ? navbar */
+.navbar {
+  width: 100%;
+  height: 130px;
+  min-height: 130px;
+  background: var(--colorBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar2 {
+  background: var(--colorBlack2);
+  width: 80%;
+  height: 60px;
+  align-self: center;
+  border-radius: 10pc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar2 h1 {
+  font-size: var(--heading1);
+  align-self: center;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(45deg, var(--colorOne), var(--colorOneDark));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  padding: 20px;
+}
+.navbar2 form {
+  background: var(--colorBlack);
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 1pc;
+}
+.navbar2 form input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--colorWhite);
+}
+.navbar2:has(input:focus) i {
+  color: var(--colorOne);
+}
+
+.navbar2 form input::placeholder {
+  color: var(--colorWhite2);
+  opacity: 0.5;
+}
+.navbar2 form label {
+  color: var(--colorWhite);
+  padding: 1px 10px;
+  height: fit-content;
+  width: fit-content;
+  background: var(--colorBlack2);
+  border-radius: 10pc;
+}
+.navbar2 form i {
+  color: var(--colorWhite);
+  padding-left: 20px;
+}
+.navbar2 form button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.nameAndIcon {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameAndIcon .animeStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime 5s linear infinite;
+  color: var(--colorWhite);
+  transform-origin: center;
+  font-size: 24px;
+}
+
+@keyframes anime {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*? home page */
+.homePage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+/* ? viewUsers */
+
+.viewUsers {
+  background: linear-gradient(168deg, var(--colorBlack), var(--colorBlack2));
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 100px;
+  flex-direction: column;
+}
+.viewUsers p {
+  color: var(--colorWhite);
+  align-self: center;
+  font-size: var(--heading1);
+  border-bottom: var(--colorOneDark) 3px solid;
+}
+.table td,
+.table th {
+  background: transparent;
+  color: var(--colorWhite);
+}
+.more {
+  background: transparent;
+  color: var(--colorWhite);
+  border: none;
+  outline: none;
+  border-radius: 10pc;
+  width: 30px;
+  height: 30px;
+}
+.more i {
+  font-size: var(--iconSize);
+}
+.more:hover {
+  background: var(--colorWhiteHover);
+}
+.moreTable {
+  background: var(--colorOneDark);
+  width: 130px;
+  height: fit-content;
+  padding: 8px;
+  list-style: none;
+  border-radius: 10px;
+  position: absolute;
+  right: 90px;
+  margin: 0;
+  transition: 0.5s;
+  box-shadow: 0px 0px 20px 1px var(--colorBlack);
+  color: #fff;
+}
+.moreTable li a {
+  text-decoration: none;
+}
+.moreTable li i {
+  padding: 8px;
+}
+.moreTable li:hover {
+  background: #0c0e1f3f;
+  border-radius: 1pc;
+}
+.btnDelete {
+    background: var(--colorOneDark);
+    color: var(--colorWhite);
+    border: none;
+
+}
+/*? view user by id */
+
+.viewUser {
+  color: var(--colorWhite);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+.viewUser table {
+  background: var(--colorBlack2);
+  width: 800px;
+  height: 400px;
+  padding: 10px;
+}
+.viewUser td {
+  border: var(--colorBlack) 5px solid;
+  padding: 20px;
+}
+.viewUser td strong{
+  color: var(--colorOne);
+}
+
+.notFound {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.notFound i {
+  font-size: 50px;
+  color:var(--colorOneDark);
+}
+.notFound h1 {
+  color: var(--colorWhite);
+}
+.notFound p {
+  color: var(--colorWhite2);
+}

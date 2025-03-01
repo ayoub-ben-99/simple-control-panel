@@ -38,7 +38,7 @@ This is a simple dashboard project built using **Node.js, Express.js, React, and
 
 ```sh
 git clone https://github.com/ayoub-ben-99/simple-control-panel.git
-cd simple-dashboard
+cd simple-control-panel
 ```
 
 ### **2. Backend Setup**

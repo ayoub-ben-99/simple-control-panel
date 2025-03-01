@@ -90,7 +90,7 @@ npm start
 
 ### - Light mode
 
-![Light mode](frontend/public/img/light%20mode.png)
+![Light mode](frontend/public/img/Light%20mode.png)
 ---
 
 ### **Contributors**

@@ -22,7 +22,6 @@ This is a simple dashboard project built using **Node.js, Express.js, React, and
 - **dotenv** - Environment variable management
 - **colors** - Terminal text styling
 - **cors** - Cross-origin resource sharing
-- **multer** - File uploading middleware
 - **date-fns** - Date utilities
 
 ### **Frontend:**
@@ -38,7 +37,7 @@ This is a simple dashboard project built using **Node.js, Express.js, React, and
 ### **1. Clone the Repository**
 
 ```sh
-git clone https://github.com/your-username/simple-dashboard.git
+git clone https://github.com/ayoub-ben-99/simple-control-panel.git
 cd simple-dashboard
 ```
 
@@ -54,8 +53,6 @@ npm install
 ```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-UPLOADS_PATH=uploads/
 ```
 
 #### Run the backend server:

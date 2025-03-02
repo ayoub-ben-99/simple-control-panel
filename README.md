@@ -1,8 +1,8 @@
-# Simple Dashboard Project
+# simple-control-panel Project
 
 ## Overview
 
-This is a simple dashboard project built using **Node.js, Express.js, React, and MongoDB (Mongoose)**. It provides a backend interface for handling data and a frontend interface for efficient content management.
+This is a simple-control-panel project built using **Node.js, Express.js, React, and MongoDB (Mongoose)**. It provides a backend interface for handling data and a frontend interface for efficient content management.
 
 ## Features
 

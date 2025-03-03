@@ -74,7 +74,7 @@ npm start
 | Method | Route                   | Description       |
 | ------ | ----------------------- | ----------------- |
 | GET    | `/users`            | Get all users     |
-| POST   | `/user/add`         | Create a new user |
+| POST   | `/users/add`         | Create a new user |
 | GET    | `/users/view/:id`   | Get user by ID    |
 | PUT    | `/users/update/:id` | Update user by ID |
 | DELETE | `/users/delete/:id` | Delete user       |
